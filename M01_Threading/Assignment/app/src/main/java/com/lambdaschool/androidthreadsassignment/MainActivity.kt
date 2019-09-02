@@ -9,4 +9,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    fun primes(): Sequence<Long> {
+        var i = 0L
+        return sequence {
+            generateSequence { i++ }
+                .filter { n -> n > 1 && ((2 until n).none { i -> n % i == 0L }) }
+                .forEach { yield(it) }
+        }
+    }
 }
