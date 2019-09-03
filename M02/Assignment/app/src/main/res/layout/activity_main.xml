@@ -8,24 +8,15 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <ListView
-        android:id="@+id/lv_countries"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/countriesTextView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        android:text="Countries"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/fetchCountriesButton">
-        <TextView
-            android:id="@+id/countriesTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Countries"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </ListView>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/fetchCountriesButton"

@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), Callback<OceaniaCountryList> {
     ) {
         if (response.isSuccessful) {
             val oceaniaCountryList = response.body()
-            countriesTextView.text = ""
+            countriesTextView.text = oceaniaCountryList.toString()
         } else {
             val response = "response not successful; ${response.errorBody().toString()}"
             Toast.makeText(this@MainActivity, response, Toast.LENGTH_SHORT).show()

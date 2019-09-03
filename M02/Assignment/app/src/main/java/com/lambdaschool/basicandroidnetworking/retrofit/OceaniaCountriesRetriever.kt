@@ -10,7 +10,7 @@ class OceaniaCountriesRetriever {
 
     companion object {
         private const val TAG = "RETRIEVER"
-        internal const val BASE_URL = "https://restcountries.eu/rest/v2/region/oceania"
+        internal const val BASE_URL = "https://restcountries.eu/rest/v2/region/"
     }
 
     fun getOceaniaCountries(): Call<OceaniaCountryList> {
