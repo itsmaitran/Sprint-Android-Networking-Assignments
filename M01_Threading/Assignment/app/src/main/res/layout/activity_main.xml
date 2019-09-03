@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_prime_number"
+        android:id="@+id/tv_primes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Prime Number"
@@ -24,6 +24,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_prime_number"/>
+        app:layout_constraintTop_toBottomOf="@id/tv_primes"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
