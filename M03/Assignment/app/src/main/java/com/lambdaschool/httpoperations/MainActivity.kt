@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     // Add a function to check if the network is connected before taking the user to any of the above activities and handle the case of network unavailability by showing a Snackbar message to the user.
     private fun isNetworkConnected(): Boolean {
         val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-        val networkInfo = connectivityManager.activeNetwork
+        val networkInfo = connectivityManager.activeNetworkInfo
         return networkInfo?.isConnected == true
     }
 
