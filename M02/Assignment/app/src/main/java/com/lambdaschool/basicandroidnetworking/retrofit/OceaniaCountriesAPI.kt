@@ -1,11 +1,11 @@
 package com.lambdaschool.basicandroidnetworking.retrofit
 
-import com.lambdaschool.basicandroidnetworking.model.OceaniaCountryList
+import com.lambdaschool.basicandroidnetworking.model.OceaniaCountry
 import retrofit2.Call
 import retrofit2.http.GET
 
 interface OceaniaCountriesAPI {
 
     @GET("oceania")
-    fun getCountries(): Call<OceaniaCountryList>
+    fun getCountries(): Call<List<OceaniaCountry>>
 }

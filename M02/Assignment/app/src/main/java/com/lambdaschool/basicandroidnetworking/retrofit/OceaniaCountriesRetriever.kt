@@ -1,7 +1,7 @@
 package com.lambdaschool.basicandroidnetworking.retrofit
 
 import com.google.gson.GsonBuilder
-import com.lambdaschool.basicandroidnetworking.model.OceaniaCountryList
+import com.lambdaschool.basicandroidnetworking.model.OceaniaCountry
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -13,7 +13,7 @@ class OceaniaCountriesRetriever {
         internal const val BASE_URL = "https://restcountries.eu/rest/v2/region/"
     }
 
-    fun getOceaniaCountries(): Call<OceaniaCountryList> {
+    fun getOceaniaCountries(): Call<List<OceaniaCountry>> {
         val gson = GsonBuilder()
             .setLenient()
             .create()

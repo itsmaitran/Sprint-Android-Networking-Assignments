@@ -1,9 +1,5 @@
 package com.lambdaschool.basicandroidnetworking.model
 
-data class OceaniaCountryList (
-    val country: List<OceaniaCountry>
-)
-
 data class OceaniaCountry (
     val name: String,
     val alpha2code: String,
