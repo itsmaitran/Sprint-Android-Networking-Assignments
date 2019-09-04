@@ -3,6 +3,7 @@ package com.lambdaschool.basicandroidnetworking
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.lambdaschool.basicandroidnetworking.model.OceaniaCountry
 import com.lambdaschool.basicandroidnetworking.retrofit.OceaniaCountriesRetriever
 import retrofit2.Callback
@@ -26,8 +27,12 @@ class MainActivity : AppCompatActivity(), Callback<List<OceaniaCountry>> {
         response: Response<List<OceaniaCountry>>
     ) {
         if (response.isSuccessful) {
-            val oceaniaCountryList = response.body()
-            tv_countries.text = oceaniaCountryList.toString()
+            val oceaniaCountryList = response.body() as MutableList<OceaniaCountry>
+            list_view.apply {
+                setHasFixedSize(false)
+                layoutManager = LinearLayoutManager(this@MainActivity)
+                adapter = RecyclerViewAdapter(oceaniaCountryList)
+            }
         } else {
             val response = "response not successful; ${response.errorBody().toString()}"
             Toast.makeText(this@MainActivity, response, Toast.LENGTH_SHORT).show()
