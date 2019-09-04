@@ -9,43 +9,33 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_get"
-        android:text="GET"
+        android:id="@+id/btn_get_simple"
+        android:text="GET - Simple"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/btn_post"/>
+        app:layout_constraintBottom_toTopOf="@+id/btn_get_path"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_post"
-        android:text="POST"
+        android:id="@+id/btn_get_path"
+        android:text="GET - PATH Parameter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_get"
-        app:layout_constraintBottom_toTopOf="@+id/btn_put"/>
+        app:layout_constraintTop_toBottomOf="@+id/btn_get_simple"
+        app:layout_constraintBottom_toTopOf="@+id/btn_get_query"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_put"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PUT"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_post"
-        app:layout_constraintBottom_toTopOf="@+id/btn_delete"/>
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_delete"
-        android:text="DELETE"
+        android:id="@+id/btn_get_query"
+        android:text="GER - QUERY Parameter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_put"
+        app:layout_constraintTop_toBottomOf="@+id/btn_get_path"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
