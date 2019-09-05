@@ -29,11 +29,11 @@ class GetActivity : AppCompatActivity(), Callback<List<Employee>> {
             title = "GET - Simple Request"
             getEmployees()
         } else if (type == "path") {
-            title = "GET - Path Parameter: EmployeeId - 2"
+            title = "GET - Path Parameter"
             getEmployeeById("2")
         }
-        else{
-            title = "GET - Query Parameter: Age - 45"
+        else {
+            title = "GET - Query Parameter"
             getEmployeeByAge("45")
         }
     }
