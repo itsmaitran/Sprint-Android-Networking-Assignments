@@ -13,6 +13,8 @@ class LargeImageDownloadService : Service() {
     companion object {
         const val FILE_DOWNLOADED_ACTION = "com.lambdaschool.servicesandbroadcasts.FILE_DOWNLOADED"
         const val DOWNLOADED_IMAGE = "downloadedImage"
+        const val BITMAP_WIDTH = "BITMAP_WIDTH"
+        const val BITMAP_HEIGHT = "BITMAP_HEIGHT"
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {

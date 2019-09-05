@@ -1,9 +1,16 @@
 package com.lambdaschool.servicesandbroadcasts.ui
 
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
+import androidx.localbroadcastmanager.content.LocalBroadcastManager
+import com.lambdaschool.servicesandbroadcasts.LargeImageDownloadService
 import com.lambdaschool.servicesandbroadcasts.R
 import kotlinx.android.synthetic.main.activity_fullscreen.*
 
@@ -19,7 +26,7 @@ class FullscreenActivity : AppCompatActivity() {
         // Note that some of these constants are new as of API 16 (Jelly Bean)
         // and API 19 (KitKat). It is safe to use them, as they are inlined
         // at compile-time and do nothing on earlier devices.
-        fullscreen_content.systemUiVisibility =
+        iv_downloaded_image.systemUiVisibility =
             View.SYSTEM_UI_FLAG_LOW_PROFILE or
                     View.SYSTEM_UI_FLAG_FULLSCREEN or
                     View.SYSTEM_UI_FLAG_LAYOUT_STABLE or
@@ -46,21 +53,47 @@ class FullscreenActivity : AppCompatActivity() {
         false
     }
 
+    private lateinit var imageDownloadReceiver: BroadcastReceiver
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_fullscreen)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+        // Start the Service
+        btn_download.setOnClickListener {
+            val serviceIntent = Intent(this, LargeImageDownloadService::class.java)
+            serviceIntent.putExtra(LargeImageDownloadService.BITMAP_WIDTH, iv_downloaded_image.width)
+            serviceIntent.putExtra(LargeImageDownloadService.BITMAP_HEIGHT, iv_downloaded_image.height)
+            this.startService(serviceIntent)
+        }
+
         mVisible = true
 
+        // Send a broadcast
+        imageDownloadReceiver = object : BroadcastReceiver() {
+            override fun onReceive(p0: Context?, p1: Intent?) {
+                if (intent?.action == LargeImageDownloadService.FILE_DOWNLOADED_ACTION) {
+                    val bitmap = intent.getParcelableExtra<Bitmap>(LargeImageDownloadService.DOWNLOADED_IMAGE)
+                    iv_downloaded_image.setImageBitmap(bitmap)
+                }
+            }
+        }
+
+        val intentFilter = IntentFilter().apply {
+            addAction(LargeImageDownloadService.FILE_DOWNLOADED_ACTION)
+        }
+        
+        LocalBroadcastManager.getInstance(this).registerReceiver(imageDownloadReceiver, intentFilter)
+
         // Set up the user interaction to manually show or hide the system UI.
-        fullscreen_content.setOnClickListener { toggle() }
+        iv_downloaded_image.setOnClickListener { toggle() }
 
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        dummy_button.setOnTouchListener(mDelayHideTouchListener)
+        btn_download.setOnTouchListener(mDelayHideTouchListener)
     }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {
@@ -93,7 +126,7 @@ class FullscreenActivity : AppCompatActivity() {
 
     private fun show() {
         // Show the system bar
-        fullscreen_content.systemUiVisibility =
+        iv_downloaded_image.systemUiVisibility =
             View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or
                     View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
         mVisible = true
