@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="608ec036-eefe-4d3a-b20b-e22ce7abaade" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/androidTest/java/com/lambdaschool/httpoperations/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/androidTest/java/com/lambdaschool/httpoperations/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/ic_launcher_http-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/ic_launcher_http-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/DeleteActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/DeleteActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/GetActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/GetActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/GetPickerActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/GetPickerActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/PostActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/PostActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/PutActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/activity/PutActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/model/Employee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/model/Employee.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/retrofit/JsonPlaceHolderAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/java/com/lambdaschool/httpoperations/retrofit/JsonPlaceHolderAPI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/drawable/http_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/drawable/http_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/layout/activity_get_picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/layout/activity_get_picker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/layout/activity_http.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/layout/activity_http.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_http.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_http.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_http_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_http_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_http.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_http.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_http_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_http_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_http_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_http_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_http.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_http.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_http_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_http_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_http_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_http_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_http.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_http.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_http_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_http_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_http_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_http_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_http.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_http.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_http_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_http_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_http_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_http_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_http.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_http.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_http_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_http_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_http_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_http_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/values/ic_launcher_http_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/values/ic_launcher_http_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/app/src/test/java/com/lambdaschool/httpoperations/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/app/src/test/java/com/lambdaschool/httpoperations/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/Assignment/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/Assignment/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/GuidedProject/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/GuidedProject/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/GuidedProject/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/GuidedProject/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/GuidedProject/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/GuidedProject/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M03/GuidedProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M03/GuidedProject/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1288" />
+    <option name="y" value="90" />
+    <option name="width" value="1139" />
+    <option name="height" value="747" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="M04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="M04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="M04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="M04" type="462c0819:PsiDirectoryNode" />
+              <item name="GuidedProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="ics" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="608ec036-eefe-4d3a-b20b-e22ce7abaade" name="Default Changelist" comment="" />
+      <created>1567717673804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567717673804</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1288" y="90" width="1139" height="747" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3291592" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32977098" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
