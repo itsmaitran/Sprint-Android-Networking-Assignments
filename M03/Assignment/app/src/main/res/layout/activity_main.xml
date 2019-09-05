@@ -8,19 +8,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.button.MaterialButton
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/http_image"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
         android:id="@+id/btn_get"
         android:text="GET"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image"
         app:layout_constraintBottom_toTopOf="@+id/btn_post"/>
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_post"
         android:text="POST"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -28,19 +39,21 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_get"
         app:layout_constraintBottom_toTopOf="@+id/btn_put"/>
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_put"
+        android:text="PUT"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PUT"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_post"
         app:layout_constraintBottom_toTopOf="@+id/btn_delete"/>
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_delete"
         android:text="DELETE"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"

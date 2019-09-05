@@ -8,9 +8,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_get_simple"
-        android:text="GET - Simple"
+        android:text="GET - Simple Request"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/btn_get_path"/>
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_get_path"
         android:text="GET - PATH Parameter"
         android:layout_width="wrap_content"
@@ -28,9 +28,9 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_get_simple"
         app:layout_constraintBottom_toTopOf="@+id/btn_get_query"/>
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_get_query"
-        android:text="GER - QUERY Parameter"
+        android:text="GET - QUERY Parameter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"

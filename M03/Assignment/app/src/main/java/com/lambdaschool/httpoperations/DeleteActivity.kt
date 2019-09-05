@@ -2,7 +2,7 @@ package com.lambdaschool.httpoperations
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.method.ScrollingMovementMethod
+import android.view.View
 import android.widget.Toast
 import com.lambdaschool.httpoperations.retrofit.JsonPlaceHolderAPI
 import kotlinx.android.synthetic.main.activity_http.*
@@ -14,17 +14,18 @@ class DeleteActivity : AppCompatActivity(), Callback<Void> {
     override fun onFailure(call: Call<Void>, t: Throwable) {
         t.printStackTrace()
         val response = "failure; ${t.printStackTrace()}"
-        Toast.makeText(this@DeleteActivity, response, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, response, Toast.LENGTH_SHORT).show()
     }
 
     override fun onResponse(call: Call<Void>, response: Response<Void>) {
         if (response.isSuccessful) {
-            val employeeList = response.body()
-            result.setMovementMethod(ScrollingMovementMethod())
+            result.text = "Successfully Deleted Employee"
+            Toast.makeText(this, "Successfully Deleted Employee", Toast.LENGTH_SHORT).show()
         } else {
-            val response = "response not successful; ${response.errorBody().toString()}"
-            Toast.makeText(this@DeleteActivity, response, Toast.LENGTH_SHORT).show()
+            result.text = "Failed to Delete the Employee"
+            Toast.makeText(this, "Failed to Delete the Employee", Toast.LENGTH_SHORT).show()
         }
+        progressBar.visibility = View.INVISIBLE
     }
 
     lateinit var employeesService: JsonPlaceHolderAPI
@@ -32,6 +33,7 @@ class DeleteActivity : AppCompatActivity(), Callback<Void> {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_http)
+        title = "HTTP API for DELETE"
 
         employeesService = JsonPlaceHolderAPI.Factory.create()
         deleteEmployee()

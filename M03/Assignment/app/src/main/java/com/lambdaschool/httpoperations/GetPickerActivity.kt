@@ -10,6 +10,7 @@ class GetPickerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_get_picker)
+        title = "HTTP API for GET"
 
         // Each of these buttons take the user to a new Activity.
         btn_get_simple.setOnClickListener {

@@ -2,7 +2,7 @@ package com.lambdaschool.httpoperations
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.method.ScrollingMovementMethod
+import android.view.View
 import android.widget.Toast
 import com.lambdaschool.httpoperations.model.Employee
 import com.lambdaschool.httpoperations.retrofit.JsonPlaceHolderAPI
@@ -15,16 +15,14 @@ class PutActivity : AppCompatActivity(), Callback<Employee> {
     override fun onFailure(call: Call<Employee>, t: Throwable) {
         t.printStackTrace()
         val response = "failure; ${t.printStackTrace()}"
-        Toast.makeText(this@PutActivity, response, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, response, Toast.LENGTH_SHORT).show()
     }
 
     override fun onResponse(call: Call<Employee>, response: Response<Employee>) {
-        if (response.isSuccessful) {
-            val employeeList = response.body()
-            result.setMovementMethod(ScrollingMovementMethod())
-        } else {
-            val response = "response not successful; ${response.errorBody().toString()}"
-            Toast.makeText(this@PutActivity, response, Toast.LENGTH_SHORT).show()
+        response.body()?.let {
+            result.text = it.toString()
+            Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show()
+            progressBar.visibility = View.INVISIBLE
         }
     }
 
@@ -33,6 +31,7 @@ class PutActivity : AppCompatActivity(), Callback<Employee> {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_http)
+        title = "HTTP API for PUT"
 
         employeesService = JsonPlaceHolderAPI.Factory.create()
         updateEmployee()

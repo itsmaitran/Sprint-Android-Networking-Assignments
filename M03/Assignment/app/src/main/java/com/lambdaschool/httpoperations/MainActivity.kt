@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             if (!isNetworkConnected()) {
                 Snackbar.make(it, "Please check your internet connection and try again", Snackbar.LENGTH_LONG).show()
             } else {
-                startActivity(Intent(this@MainActivity, GetPickerActivity::class.java))
+                startActivity(Intent(this, GetPickerActivity::class.java))
             }
         }
 
@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             if (!isNetworkConnected()) {
                 Snackbar.make(it, "Please check your internet connection and try again", Snackbar.LENGTH_LONG).show()
             } else {
-                startActivity(Intent(this@MainActivity, PostActivity::class.java))
+                startActivity(Intent(this, PostActivity::class.java))
             }
         }
 
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             if (!isNetworkConnected()) {
                 Snackbar.make(it, "Please check your internet connection and try again", Snackbar.LENGTH_LONG).show()
             } else {
-                startActivity(Intent(this@MainActivity, PutActivity::class.java))
+                startActivity(Intent(this, PutActivity::class.java))
             }
         }
 
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
             if (!isNetworkConnected()) {
                 Snackbar.make(it, "Please check your internet connection and try again", Snackbar.LENGTH_LONG).show()
             } else {
-                startActivity(Intent(this@MainActivity, DeleteActivity::class.java))
+                startActivity(Intent(this, DeleteActivity::class.java))
             }
         }
     }
