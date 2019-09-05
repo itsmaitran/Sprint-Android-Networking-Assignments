@@ -36,7 +36,7 @@ class RetrofitActivity : AppCompatActivity(), Callback<AdviceMsg> {
         if (response.isSuccessful) {
             val adviceMsg = response.body()
             Log.d(TAG, adviceMsg?.getAdvice())
-            adviceTextRetrofit?.text = adviceMsg?.getAdvice()
+            adviceTextRetrofit.text = adviceMsg?.getAdvice()
         } else {
             val response = "response not successful; ${response.errorBody().toString()}"
             Log.d(TAG, response)
@@ -47,7 +47,7 @@ class RetrofitActivity : AppCompatActivity(), Callback<AdviceMsg> {
     // Callback for Retrofit Call
     override fun onFailure(call: Call<AdviceMsg>, t: Throwable) {
         t.printStackTrace()
-        val response = "failure; ${t.printStackTrace()}"
+        val response = "faliure; ${t.printStackTrace()}"
         Log.d(TAG, response)
         Toast.makeText(this@RetrofitActivity, response, Toast.LENGTH_SHORT).show()
     }

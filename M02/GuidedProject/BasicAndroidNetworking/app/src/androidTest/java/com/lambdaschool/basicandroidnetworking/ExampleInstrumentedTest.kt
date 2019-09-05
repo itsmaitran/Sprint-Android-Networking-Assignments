@@ -22,4 +22,3 @@ class ExampleInstrumentedTest {
         assertEquals("com.lambdaschool.basicandroidnetworking", appContext.packageName)
     }
 }
-no
