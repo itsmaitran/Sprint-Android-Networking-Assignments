@@ -15,7 +15,7 @@ data class AdviceMsg(
     val slip: Slip?
 ) {
 
-    fun getAdvice(): String? {
+    fun getAdvice(): String {
         return "${slip?.advice}"
     }
 
