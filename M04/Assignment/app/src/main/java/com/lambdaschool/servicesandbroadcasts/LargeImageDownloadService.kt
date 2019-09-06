@@ -21,7 +21,9 @@ class LargeImageDownloadService : Service() {
         Log.i("LargeImageDownload", "Started")
 
         Thread(Runnable {
-            val bitmap = NetworkAdapter.getBitmapFromURL("https://imgur.com/gallery/vjXpIbW")
+            val width = intent?.getIntExtra(BITMAP_WIDTH, 0) ?: 0
+            val height = intent?.getIntExtra(BITMAP_HEIGHT, 0) ?: 0
+            val bitmap = NetworkAdapter.getBitmapFromURL("https://i.imgur.com/HaSmgGn.jpg", width, height)
 
             val intent = Intent(FILE_DOWNLOADED_ACTION).apply {
                 putExtra(DOWNLOADED_IMAGE, bitmap)
